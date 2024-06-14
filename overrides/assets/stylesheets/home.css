@@ -94,6 +94,7 @@ body {
   font-size: large;
   padding: 0.525em 1em;
   min-width: fit-content;
+  border-radius: 0.5em;
 }
 
 .home-container .md-button,
@@ -114,7 +115,7 @@ h2.secondary-headline, h3.trusted-by {
 }
 
 .home-container h1 {
-  color: var(--md-primary-fg-color--dark);
+  color: black;
   margin-top: 1em;
   margin-bottom: 0;
 }
@@ -206,22 +207,24 @@ h2.secondary-headline, h3.trusted-by {
   margin-top: 1em;
   padding: 4px 3em;
   color: white;
+  border-radius: 0.5em;
 }
 
 /* why serverless container css */
 .why-serverless-container, .trying-it-all-container {
   background-color: #f3f1f2;
-  color: var(--md-primary-fg-color--light);
+  color: gray;
+  font-weight: 600;
 }
 
 .why-serverless-container h1, .trying-it-all-container h1,
 .case-studies-container h1 {
-  color: var(--md-primary-fg-color--dark);
+  color: black;
 }
 
 .why-serverless-container .normal-text,
 .trying-it-all-container .normal-text {
-  font-weight: 600;
+  /* font-weight: 600; */
   margin: 0 auto 2rem;
   max-width: 75%;
 }
@@ -273,12 +276,12 @@ h2.secondary-headline, h3.trusted-by {
 
 /* knative components container css */
 .knative-components-container h1 {
-  color: #7dc47e;
+  color: white;
 }
 
 .knative-components-container .text-table .normal-text {
   width: 30%;
-  text-align: start;
+  text-align: center;
   margin-left: 1%;
   font-size: .8rem;
   margin-top: -1rem;
